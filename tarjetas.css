@@ -1,0 +1,16 @@
+.server-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+}
+.server-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+.server-players {
+    font-size: 16px;
+}
+.server-ip {
+    font-size: 14px;
+}
