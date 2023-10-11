@@ -3,44 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>RUSTServerList</title>
 </head>
 <body>
     <header>
         <figure class="img-principal">
-            <img src="./img/RUinicio.jpg" alt="TopImg">
+            <img src="./img/logoRustCh.jpg" alt="TopImg">
         </figure>
         
-        <h1>Soporte</h1>
+        <h1 class="titulo-header">Soporte</h1>
         <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="listadosv.html">LISTA DE SERVIDORES</a></li>
-            <li><a href="contacto.html">CONTACTO</a></li>
+            <li><a href="index.html" class="link__header">HOME</a></li>
+            <li><a href="listadosv.html" class="link__header">LISTA DE SERVIDORES</a></li>
+            <li><a href="contacto.html" class="link__header">CONTACTO</a></li>
         </ul>
-        <h3>Dejanos tu comentario, estamos para ayudarte</h2>
-
     </header>
 
     <main>
-        <form action="contacto.html" method="post">
-            <label for="nombre">Nombre</label>
-            <input type="text" name="nombre" id="nombre">
-            <br><br>
-            <label for="email">Email</label>
-            <input type="text" name="email" id="email">
-            <br><br>
-            <label for="comentario">Deja tu consulta</label>
-            <br><br>
-            <textarea name="comentario" id="comentario" cols="30" rows="8"></textarea>
-            <br><br>
-            
-            <button type="submit">Enviar consulta</button>
+        <h2 class="titulo-main">Dejanos tu comentario, estamos para ayudarte</h2>
 
-        </form>
+        <!--<form action="contacto.html" method="post" class="formulario-consulta">
+            <label class= "consulta__texto" for="nombre">Nombre </label>
+            <input class="consulta-campo__completar" type="text" name="nombre" id="nombre">
+            <br><br>
+            <label class= consulta__texto for="email">Email</label>
+            <input class="consulta-campo__completar" type="text" name="email" id="email">
+            <br><br>
+            <label class= "consulta__texto" for="comentario">Deja tu consulta</label>
+            <br><br>
+            <textarea class="consulta-campo__completar" name="comentario" id="comentario" cols="30" rows="8"></textarea>
+            <br><br>
+            <nav class="botones-contacto">
+                <button class="boton__enviar" type="submit">Enviar consulta</button>
+                <button class="boton__limpiar" type="reset">Limpiar</button>
+            </nav>
+        </form-->
+
+        <div class="formulario-consulta">
+            <h2 class="formulario-titulo">Formulario de contacto</h2>
+            <form action="#" method="post" >
+              <label class= "consulta__texto" for="nombre">Nombre:</label>
+              <input class="consulta-campo__completar" type="text" id="nombre" name="nombre" required>
+        
+              <label class= "consulta__texto" for="email">Correo electrónico:</label>
+              <input class="consulta-campo__completar" type="email" id="email" name="email" required>
+        
+              <label class= "consulta__texto" for="mensaje">Mensaje:</label>
+              <textarea class="consulta-campo__completar" id="mensaje" name="mensaje" rows="5" required></textarea>
+        
+              <button class="boton-enviar" type="submit">Enviar</button>
+            </form>
+          </div>
     </main>
 
     <footer class="footer_gral">
-        <p>Autor: Verdu Gaspar</p>
+        <p class="footer__parrafo">Autor: Verdu Gaspar</p>
+        <img src="./img/pngchikito.png" alt="logoPNG">
     </footer>
     
 </body>

@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./tarjetas.css">
+    <link rel="stylesheet" href="./style.css">
     <title>RUSTServerList.com</title>
 </head>
 <body>
     <header>
         <figure class="img-principal">
-            <img src="./img/RUinicio.jpg" alt="TopImg">
+            <img src="./img/logoRustCh.jpg" alt="TopImg">
         </figure>
         
         <br>
-        <h1>Servidores disponibles</h1>
+        <h1 class="titulo-header">Servidores disponibles</h1>
         <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="listadosv.html">LISTA DE SERVIDORES</a></li>
-            <li><a href="contacto.html">CONTACTO</a></li>
+            <li><a href="index.html" class="link__header">HOME </a></li>
+            <li><a href="listadosv.html" class="link__header">LISTA DE SERVIDORES</a></li>
+            <li><a href="contacto.html" class="link__header">CONTACTO</a></li>
         </ul>
         
     </header>
@@ -33,9 +33,9 @@
             <br>
             <div class="card">
                 <div class="card__name">Servidor Épico de Rust</div>
-                <div class="card__players">Jugadores en línea: 78200</div>
+                <div class="card__players">Jugadores en línea: 78/200</div>
                 <div class="card__ip">Dirección IP: 123.45.67.89:27016</div>
-                <div class="card__link"><a href="">CONNECT</a></div>
+                <div class="card__link" :hover><a href="">CONNECT</a></div>
             </div>
             <br>
             <div class="card">
@@ -49,8 +49,9 @@
     </main>
 
     <footer class="footer_gral">
-        <p>Autor: Verdu Gaspar</p>
-        <a href="contacto.html">Contactanos</a>
+        <p class="footer__parrafo">Autor: Verdu Gaspar</p>
+        <img src="./img/pngchikito.png" alt="logoPNG">
+        <a href="contacto.html" class="footer__link">Contactanos</a>
     </footer>
 </body>
 </html>
