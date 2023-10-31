@@ -156,8 +156,9 @@ main{
 /*listadosv.html*/
 .servers-global{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
+    flex-direction: row;
     gap: 50px;
 }
 
