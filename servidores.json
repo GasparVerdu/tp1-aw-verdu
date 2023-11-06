@@ -1,0 +1,41 @@
+{
+    "servidores":[
+        {
+            "nombre": "rustico",
+            "jugadores": "100/200",
+            "direccionip": "direccion ip 123.23.2.123",
+            "link": "https://" 
+
+        },
+        {
+            "nombre": "rustico",
+            "jugadores": "100/200",
+            "direccionip": "direccion ip",
+            "link": "https://"
+        },
+        {
+            "nombre": "rustico",
+            "jugadores": "100/200",
+            "direccionip": "direccion ip",
+            "link": "https://"
+        },
+        {
+            "nombre": "rustico",
+            "jugadores": "100/200",
+            "direccionip": "direccion ip",
+            "link": "https://" 
+        },
+        {
+            "nombre": "rustico",
+            "jugadores": "100/200",
+            "direccionip": "direccion ip",
+            "link": "https://" 
+        },
+        {
+            "nombre": "rustico",
+            "jugadores": "100/200",
+            "direccionip": "direccion ip",
+            "link": "https://" 
+        }
+    ]
+}
