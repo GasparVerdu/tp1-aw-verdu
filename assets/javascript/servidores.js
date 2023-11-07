@@ -1,49 +1,44 @@
+//objetos
 const listado = {
     nombre: "Lista de servidores",
     
     servidores:[
         {
-            nombre: "rustico",
-            jugadores: "100/200",
+            nombre: "rustico1",
+            jugadores: "132/150",
             direccionip: "direccion ip 123.23.2.123",
-            link: "https://" //absoluta si es a otra pag.
-            //progress bar?
+            link: "https://rust.facepunch.com/"
         },
         {
-            nombre: "rustico",
+            nombre: "rustico2",
             jugadores: "100/200",
             direccionip: "direccion ip",
-            link: "https://" //absoluta si es a otra pag.
-            //progress bar?
+            link: "https://rust.facepunch.com/" 
         },
         {
-            nombre: "rustico",
-            jugadores: "100/200",
+            nombre: "rustico3",
+            jugadores: "258/350",
             direccionip: "direccion ip 123.23.2.123",
-            link: "https://" //absoluta si es a otra pag.
-            //progress bar?
+            link: "https://rust.facepunch.com/"
         },
         {
-            nombre: "rustico",
-            jugadores: "100/200",
+            nombre: "rustico4",
+            jugadores: "81/250",
             direccionip: "direccion ip 123.23.2.123",
-            link: "https://" //absoluta si es a otra pag.
-            //progress bar?
+            link: "https://rust.facepunch.com/"
         },
         {
-            nombre: "rustico",
-            jugadores: "100/200",
+            nombre: "rustico5",
+            jugadores: "0/100",
             direccionip: "direccion ip 123.23.2.123",
-            link: "https://" //absoluta si es a otra pag.
-            //progress bar?
+            link: "https://rust.facepunch.com/"
         },
         {
-            nombre: "rustico",
+            nombre: "rustico6",
             jugadores: "100/200",
             direccionip: "direccion ip 123.23.2.123",
-            link: "https://" //absoluta si es a otra pag.
-            //progress bar?
-        },
+            link: "https://rust.facepunch.com/"
+        }
     ]
 }
 
