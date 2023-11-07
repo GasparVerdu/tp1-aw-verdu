@@ -42,4 +42,4 @@ const listado = {
     ]
 }
 
-//export default listado
+export default listado
