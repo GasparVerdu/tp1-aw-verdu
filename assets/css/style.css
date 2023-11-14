@@ -160,6 +160,8 @@ main{
     justify-content: center;
     flex-direction: row;
     gap: 50px;
+    margin: 0 auto;
+    max-width: 70%;
 }
 
 .card {
@@ -168,6 +170,8 @@ main{
     padding: 50px;
     width: 320px;
     text-align: center;
+
+
 }
 
 .card__name {
@@ -198,47 +202,7 @@ main{
   .card__link:hover {
     background: #3cfa58;
   }
-/*
-  .formulario-consulta{
-    display: flex;
-    flex-direction:row;
-    padding-top: 20px;
-    padding-bottom: 20px;
 
-  }
-
-  .consulta__texto{
-    font-size: 20px;
-    margin-left: 20px;
-    margin-left: 20px;
-  }
-
-  .consulta-campo__completar{
-    margin: 20px;
-  }
-
-.botones-contacto{
-    
-}
-
-.boton-enviar{
-    font-size: 16px;
-    padding-inline: 20px;
-    padding-block: 15px;
-    margin-block: 20px;
-    border-radius: 6px;
-}
-    
-
-
-.boton-limpiar{
-    font-size: 16px;
-    padding-inline: 20px;
-    padding-block: 15px;
-    margin-block: 20px;
-    border-radius: 6px;
-}*/
-  
   .formulario-consulta {
     max-width: 400px;
     margin: auto;

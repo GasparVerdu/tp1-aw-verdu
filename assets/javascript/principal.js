@@ -11,27 +11,10 @@ listado.servidores.forEach((serv)=>{
     <div class="card__name">${serv.nombre}</div>
     <div class="card__players">${serv.jugadores}</div>
     <div class="card__ip">${serv.direccionip}</div>
-    <div class="card__link">${serv.link}</div>
+    <div class="card__link"><a href="${serv.link}">CONNECT</a></div>
 </div>`
 })
 
-//contenedor.innerHTML = "hola tienda"
-
-
-//let servidores;
-
-//fetch("../../servidores.json")
-//    .then((datos)=>{
-//        //si lo paso de un then a otro tengo que hacer un return
-//        return datos.json()
-//    }
-//)
-//.then(
-//    (datos)=>{
-///
-//        servidores = datos
-//        console.log(servidores)
-//    }
-//)
+contenedor.innerHTML = contenidohtml
 
 
